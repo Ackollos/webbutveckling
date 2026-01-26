@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{
+    display: flex;
+    color: rgb(156, 5, 5);
+    gap: 20px;
+    height: 100vh;
+}
+
+ul{
+    color: black;
+}
+
+article{
+    flex: 3;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-template-areas: 
+    "drt        im       v"
+    "drt        na     nap"
+    "drt        py     pyr"
+    "drt        al     ali"
+    ;
+}
+
+aside{
+    flex: 1;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+ 
+#connected, #podcast{
+    border-bottom: 1px solid lightgray;
+    font-family: arial;
+    font-weight: 800;
+    font-size:  29px;
+    color: rgb(156, 5, 5);
+}
+
+span{
+    color: rgb(156, 5, 5);
+    font-weight: bold;
+}
+
+section{
+    color: black;
+}
+
+#drt{
+    grid-area: drt;
+}
+
+#v{
+    grid-area: v;
+}
+
+#im{
+    background: url(images/vitruvian_man_da_vinci.webp);
+    background-size: cover;
+}
+
+#pyr{
+    grid-area: pyr;
+}
+
+#py{
+    background: url(images/pyramids.webp);
+    background-size: cover;
+}
+
+#nap{
+    grid-area: nap;
+}
+
+#na{
+    background: url(images/napoleon.webp);
+    background-size: cover;
+}
+
+#ali{
+    grid-area: ali;
+}
+
+#al{
+    background: url(images/ali.webp);
+    background-size: cover;
+}

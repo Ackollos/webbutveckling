@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media (min-width: 700px){
+    div{
+        display: flex;
+    }
+
+    div section{
+        flex: 1;
+    }
+    
+}
+
+body{
+    display: block;
+    background: rgb(255, 208, 0);
+    margin: 0;
+}
+
+header{
+    color: white;
+    background: rgb(255, 72, 26);
+    padding: 10px;
+}
+
+.yuji-boku-regular {
+    font-family: "Yuji Boku", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+main{
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+header{
+    font-size: large;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    background: rgb(128, 0, 32);
+    color: white;
+    text-align: center;
+    width: 100%;
+    
+}

@@ -1,0 +1,16 @@
+h1{
+    color: blueviolet;
+}
+body{
+    background: beige;
+}
+p{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+img{
+    size-adjust: 20px;
+}
+br{
+    height: 50px;
+}

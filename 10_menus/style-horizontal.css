@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+a{
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#mainmenu{
+    display: flex;
+}
+
+#submenu{
+    display: none;
+    position: absolute;
+}
+
+#mainmenu > li:hover > #submenu{
+    display: block;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#mainmenu > ul > li{
+    position: relative;
+}

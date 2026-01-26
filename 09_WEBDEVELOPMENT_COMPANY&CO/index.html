@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company&Co</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <span class="material-symbols-outlined">rocket_launch</span> <p>Company & Co</p>
+        <nav>
+            <a href="#webdev">Home</a>
+            <a href="#lorem">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="webdev">
+        <div class="textContainer">
+            <h1 id="h1"><span class="A">Web</span><span class="B">development</span></h1>
+            <p id="p">"If you think math is hard, try web design."
+                <br>–Trish Parr</p>
+        </div>
+    </section>
+
+    <article id="lorem">
+        <h1><span class="B">ABOUT</span><span class="C">LOREM</span><span class="B">IPSUM</span></h1>
+        <p class="C">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro vero ducimus quo aspernatur sint quasi doloribus magnam expedita, accusantium commodi molestias neque, modi recusandae ratione aut itaque eveniet repellat!</p>
+    </article>
+
+    <article id="blog">
+        <h1><span class="C">ABOUT</span><span class="B">BLOG</span></h1>
+        <p class="C">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro vero ducimus quo aspernatur sint quasi doloribus magnam expedita, accusantium commodi molestias neque, modi recusandae ratione aut itaque eveniet repellat!</p>
+    </article>
+
+
+    <form id="contact">  
+        <h1 id="form"><span class="B">CONTACT</span> <span class="C">US</span></h1>
+    
+        <label for="first-name">Förnamn:</label>
+        <input type="text" id="first-name" name="fornamn">
+    
+        <label for="last-name">Efternamn:</label>
+        <input type="text" id="last-name" name="efternamn">
+    
+        <label for="address">Gatuadress:</label>
+        <input type="text" id="address" name="gatuadress">
+    
+        <label for="postal">Postnr:</label>
+        <input type="text" id="postal" name="postnr">
+    
+        <label for="city">Ort:</label>
+        <input type="text" id="city" name="ort">
+    
+        <label>Jag är:</label>
+        <div class="gender-options">
+          <input class="radio" type="radio" id="man" name="gender" value="man">
+          <label for="man">Man</label>
+          <input class="radio" type="radio" id="kvinna" name="gender" value="kvinna">
+          <label for="kvinna">Kvinna</label>
+          <input class="radio" type="radio" id="alien" name="gender" value="alien">
+          <label for="alien">Alien</label>
+          <input class="radio" type="radio" id="annat" name="gender" value="annat">
+          <label for="annat">Annat</label>
+        </div>
+    
+        <label for="subject">Jag gillar särskilt:</label>
+        <select id="subject" name="subject">
+          <option value="matematik">Matematik</option>
+          <option value="fysik">Fysik</option>
+          <option value="konst">Konst</option>
+        </select>
+    
+        <label for="message">Meddelande:</label>
+        <textarea id="message" name="meddelande" rows="4"></textarea>
+    
+        <button type="submit">Skicka</button>
+    </form>
+
+    <footer>
+        <span class="material-symbols-outlined">rocket_launch</span>
+        <p id="CoC">Company & Co</p>
+        <p id="adress">Stora Nygatan 18</p>
+        <p id="number">08-545 295 90</p>
+        <p id="email">info@contact.com</p>
+    </footer>
+
+    <!-- Top raket under company under det random contact -->
+</body>
+</html>

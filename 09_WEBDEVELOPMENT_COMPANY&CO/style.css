@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(/images/pexels-kevin-ku-577585.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: "Biryani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    color: #EEE; 
+    letter-spacing: 2px;
+}
+
+.material-symbols-outlined{
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    background: #555;
+    padding: 0;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+}
+
+header p{
+    flex: 1;
+}
+
+header nav a{
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+span{
+    color: rgb(0,206,209);
+}
+
+.A{
+    color: #EEE;
+}
+
+.C{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: #EEE;
+}   
+
+.textContainer{
+background: rgba(5, 5, 5, 0.5);
+text-align: center;
+border-radius: 5px;
+font-size: 30px;
+}
+
+#p{
+    margin: 0 0 0 0;
+}
+
+#h1{
+    margin: 0 0 0 0;
+}
+
+#webdev{
+padding-left: 150px;
+padding-right: 150px;
+padding-top: 200px;
+}
+
+article{
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 25%;
+    margin-top: 45%;
+    font-size: 30px;
+    text-align: left;
+}
+
+article h1{
+    text-align: center;
+}
+
+footer{
+    background: rgb(70, 70, 70);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer #CoC{
+    padding-left: 565px;
+}
+
+footer .material-symbols-outlined{
+    color: #EEE;
+    display: flex;
+    justify-content: center;
+}
+
+#number{
+    color: rgb(125, 125, 125);
+    display: flex;
+    justify-content: center;
+}
+
+#adress{
+    color: rgb(125, 125, 125);
+    display: flex;
+    justify-content: center;
+}
+
+#email{
+    color: rgb(125, 125, 125);
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 25%;
+    max-width: 500px;
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25%;
+    border-radius: 8px;
+  }
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+  
+  .gender-options {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .gender-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+button:hover {
+    background-color: #0056b3;
+}
+
+#form{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}

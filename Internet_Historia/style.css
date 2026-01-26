@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background: url(images/julgran_2048x2048.webp);
+    color: yellow;
+    display: block;
+    background-size: 500%;
+}
+
+header{
+    background: darkred;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 25% 50px 25%;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px; 
+}
+
+div{
+    background: darkred;
+    justify-content: center;
+    margin: 50% 25% 50px 25%;
+    padding: 50px;
+    font-size: 30px;
+    border-radius: 20px; 
+}
+
+#sextio{
+    margin: 50px 25% 50px 25%;  
+}
+
+h2{
+    text-align: center;
+    color: #eee;
+}

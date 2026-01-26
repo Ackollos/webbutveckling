@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#yttre{
+    background-color: blue;
+    padding: 200px;
+    margin: 100px;
+    margin-right: 50%;
+    margin-left: 50%;
+    margin-top: 20%;
+    position: relative;
+}
+
+#inbetween{
+    background-color: red;
+    padding: 200px;
+    margin-right: 200px;
+    position: absolute;
+    bottom: 200px;
+    right: 10px;
+}
+
+#circle{
+    background-color: rgb(21, 255, 0);
+    padding: 200px;
+    position: absolute;
+    right: 190px;
+    border-radius: 50%;
+}
