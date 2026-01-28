@@ -1,6 +1,7 @@
 body{
     background-color: antiquewhite;
     text-align: center;
+    margin: 0;
 }
 
 a{
@@ -11,7 +12,7 @@ a{
     transition: color 1s;
 }
 
-.playwrite-in-guides-regular a{
+.playwrite-in-guides-regular a, h1{
     font-family: "Playwrite IN Guides", cursive;
     font-weight: 500;
     font-style: normal;
@@ -20,4 +21,20 @@ a{
 a:hover{
     color: rgb(143, 143, 254);
     text-decoration: solid black 1px;
+}
+
+h1{
+    background-color: rgb(255, 208, 150);
+    padding: 30px;
+    margin: 0;
+    animation-name: title;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title{
+    0%   {color: red;}
+    50%  {color: rgb(0, 200, 0);}
+    75%  {color: blue;}
+    100% {color: red;}
 }
