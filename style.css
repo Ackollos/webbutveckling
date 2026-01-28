@@ -13,7 +13,7 @@ a{
 }
 
 .playwrite-in-guides-regular a, h1{
-    font-family: "Playwrite IN Guides", cursive;
+    font-family: "Playwrite IN Guides", cursive, arial;
     font-weight: 500;
     font-style: normal;
 }
