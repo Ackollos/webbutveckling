@@ -9,6 +9,7 @@
 <body>
     <h1> ANIMATION TUTORIAL</h1>
 <section id="box-part">
+    <p>This code makes a red square appear on the page that smoothly changes when you hover over it. When hovered, the box becomes bigger and turns orange.</p>
     <h2>HTML</h2>
     <pre>
         &LT;div id="box"&GT;Makes the box bigger and orange&lt;/div&GT;
@@ -27,34 +28,33 @@
             height: 300px;
             background-color: orange;
           }
-
-          @media (min-width: 700px){
-            #box-part{
+            
+        #box-part{
               background-color: antiquewhite;
               border-radius: 15px;
               width: fit-content;
               margin-left: 30%;
-            }
+        }
 
-            #box {
-              width: 100px;
-              height: 100px;
-              background-color: red;
-              margin-left: 38%;
-              transition: width 2s, height 2s, background-color 2s ; 
-            }
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-left: 38%;
+            transition: width 2s, height 2s, background-color 2s ; 
+        }
               
-            #box:hover {
-              width: 300px;
-              height: 300px;
-              background-color: orange;
-            }
+        #box:hover {
+            width: 300px;
+            height: 300px;
+            background-color: orange;
+        }
           
-          }
     </pre>
 </section>
 <div id="box">Makes the box bigger and orange</div>
 <section id="circle-part">
+    <p>This code creates a red circle on the page that moves back and forth using a CSS animation. The circle is 100 by 100 pixels, rounded to look like a circle, and starts moving after a short delay. The animation runs forever and moves the circle sideways across the screen and back.</p>
     <h2>HTML</h2>
     <pre>
         &LT;div id="circle"&GT;Makes the circle move&LT;/div&GT;
@@ -83,42 +83,41 @@
         margin-top: 70%;
     }
 
-    @media (min-width: 700px){
   
-        #circle-part{
-            background-color: antiquewhite;
-            border-radius: 15px;
-            width: fit-content;
-            margin-left: 35%;
-            padding: 0 5% 0 5% 0;
-        }
-
-        #circle {
-            width: 100px;
-            height: 100px;
-            background-color: red;
-            margin-left: 35%;
-            position: relative;
-            animation-name: myAnimation;
-            animation-duration: 4s;
-            border-radius: 50px;
-            margin-top: 10px;
-            animation-delay: 1s;
-            animation-iteration-count: infinite;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-
-        @keyframes myAnimation {
-            0%   {left:0px; top:0px;}
-            25%  {left:400px; top:0px;}
-            50%  {left:400px; top:0px;}
-            75%  {left:0px; top:0px;}
-            100% {left:0px; top:0px;}
-        }
-           
+    #circle-part{
+        background-color: antiquewhite;
+        border-radius: 15px;
+        width: fit-content;
+        margin-left: 35%;
+        padding: 0 5% 0 5% 0;
     }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin-left: 35%;
+        position: relative;
+        animation-name: myAnimation;
+        animation-duration: 4s;
+        border-radius: 50px;
+        margin-top: 10px;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+        
+    @keyframes myAnimation {
+        0%   {left:0px; top:0px;}
+        25%  {left:400px; top:0px;}
+        50%  {left:400px; top:0px;}
+        75%  {left:0px; top:0px;}
+        100% {left:0px; top:0px;}
+    }
+           
     </pre>
 </section>
 <div id="circle"><span>Makes the circle move</span></div>
