@@ -20,7 +20,7 @@ a{
 }
 
 .playwrite-in-guides-regular a, h1{
-    font-family: "Playwrite IN Guides", cursive, arial;
+    font-family: "Playwrite IN Guides", cursive;
     font-weight: 500;
     font-style: normal;
 }
@@ -37,4 +37,11 @@ h1{
     animation-name: title;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+}
+
+@keyframes title{
+    0%   {color: red;}
+    50%  {color: rgb(0, 200, 0);}
+    75%  {color: blue;}
+    100% {color: red;}
 }
