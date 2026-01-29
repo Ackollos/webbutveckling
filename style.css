@@ -4,13 +4,6 @@ body{
     margin: 0;
 }
 
-@keyframes title{
-    0%   {color: red;}
-    50%  {color: rgb(0, 200, 0);}
-    75%  {color: blue;}
-    100% {color: red;}
-}
-
 a{
     display: inline-block;
     text-decoration: none;
