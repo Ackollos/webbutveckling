@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+article{
+    height: 100vh;
+    font-size: 40px;
+    padding: 10px 0 0 20px;
+}
+
+#main{
+    margin-top: 50px;
+}
+
+nav{
+    background-color: gray;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    flex: 1;
+}
+
+a{
+    margin: 15px 1% 0 1%;
+}
+
+nav p{
+    font-weight: bold;
+}
+ 
