@@ -1,7 +1,17 @@
 @charset "UTF-8";
 
+:root{
+    font-size: 16px;
+    --bg-light: hsl(200, 65%, 91%);
+    --bg-dark: #333;
+    --txt-light: hsl(200, 65%, 91%);
+    --text-dark: hsl(200, 92%, 14%); 
+}
+
 body{
     margin: 0;
+    background: var(--bg-light);
+    color: var(--text-dark);
 }
 
 article{
@@ -31,3 +41,16 @@ nav p{
     font-weight: bold;
 }
  
+@media (max-width: 1000px){
+    :root{
+        font-size: 16px;
+        --bg-light: hsl(200, 65%, 91%);
+        --bg-dark: hsl(200, 16%, 4%);
+    }
+
+    body{
+        margin: 0;
+        background: var(--bg-dark);
+        color: var(--txt-light);
+    }
+}
