@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* main body* */
+body{
+    margin: 0;
+    background-color: #AFCDE7;
+}
+
+/* Header */
+header{
+    text-align: center;
+    font-size: 100px;
+    background-color: #4A90A4;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+/* Nav */
+nav{
+    width: auto;
+    background-color: #6C9FB5;
+    padding: 10px 10px 10px 10px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-right: 3%;
+}
+
+nav p{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    margin-right: 3%;  
+}
+
+nav a:hover{
+    color: #94dfff;
+}
+
+/* Main */
+
+main h2{
+    font-size: 50px;
+}
+
+main p{
+    font-size: 20px;
+    color: black;
+}
+
+div{
+    margin: 1% 10% 1% 10%;
+    padding: 1% 5% 1% 5%;
+    background-color: #FFFFFF;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    color: 	#2F3E46;
+}
+
+img{
+    margin-left: 30%;
+    margin-top: 20px;
+    height: 250px;
+}
+
+/* Phone varient */
+
+@media (max-width: 500px){
+    header h1{
+        font-size: 40px;
+    }
+
+    main h2{
+        font-size: 30px;
+    }
+
+    img{
+        margin-left: 50px;
+        margin-bottom: 5px;
+        width: 80%;
+    }
+
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 8px;
+        color: #FFFFFF;
+        margin-right: 1%;
+    }
+    
+    nav p{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 8px;
+        color: #000000;
+        margin-right: 1%;  
+    }
+    
+}
