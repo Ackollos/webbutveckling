@@ -53,12 +53,6 @@ div{
     background-color: #FDFBFF;
 }
 
-img{
-    height: 350px;
-    margin-left: 25%;
-    margin-top: 10px;
-}   
-
 /* Phone varient */
 
 @media (max-width: 500px){
@@ -75,12 +69,5 @@ img{
         font-size: 15px;
         color: #FFFFFF;
         margin-right: 5%; 
-    }   
-
-    img{
-        width: 80%;
-        height: 200px;
-        margin-left: 10%;
-        margin-bottom: 5px;
-    }
+    } 
 }   
