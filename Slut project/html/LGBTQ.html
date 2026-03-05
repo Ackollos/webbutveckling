@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LGBTQ</title>
-    <link rel="stylesheet" href="LGBTQ.css">
+    <link rel="stylesheet" href="/css/LGBTQ.css">
 
 </head>
 <body>
@@ -12,11 +12,17 @@
         <h1>LGBTQ+ Awareness</h1>
     </header>
 
-    <nav>
-        <a href="mha.html">Mental Health Awareness</a> 
-        <a href="Tips.html">LGBTQ tips</a>
-        <a href="Flags.html">LGBTQ Flags</a> 
-    </nav>
+    <nav class="navbar">
+        <button class="menu-toggle" aria-expanded="false" aria-label="Öppna meny">
+          ☰
+        </button>
+      
+        <ul class="menu">
+          <li><a href="/index.html">Mental health awareness</a></li>
+          <li><a href="Tips.html">LGBTQ Tips</a></li>
+          <li><a href="Flags.html">LGBTQ Flags</a></li>
+        </ul>
+      </nav>
     
     <main>
         <div>
@@ -89,5 +95,6 @@
             </p>
         </div>
     </main>
+    <script src="/menutoggle.js"></script>
 </body>
 </html>
