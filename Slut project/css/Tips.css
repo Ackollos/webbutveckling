@@ -13,11 +13,14 @@ header{
     background-color: #F4A9C3;
     padding-top: 1%;
     padding-bottom: 1%;
+    text-shadow: 20px 10px 10px #000000 ;
 }
 
 h1{
     font-size: 50px;
 }
+
+
 
 /* nav */
 nav{
@@ -42,7 +45,13 @@ nav a:hover{
     color: #64bdf0;
 }
 
+
 /* main */
+
+img{
+  width: 50%;
+  margin: 10px 0px 0 25%;
+}
 
 main{
     display: grid;
@@ -63,6 +72,19 @@ div{
     margin: 1% 10% 1% 10%;
     padding: 1% 5% 1% 5%;
     background-color: #FDFBFF;
+    border-radius: 40px;
+}
+
+iframe{
+  margin-left: 29%;
+  border-radius: 10%;
+}
+
+#credits{
+  font-size: 20px;
+  margin-left: 29%;
+  margin-bottom: 50px;
+  color: white;
 }
 
 /* Phone varient */
@@ -81,7 +103,19 @@ div{
         font-size: 15px;
         color: #FFFFFF;
         margin-right: 1%; 
-    }   
+    }  
+    
+    iframe{
+      margin-left: 10%;
+      width: 80%;
+    }
+    
+    #credits{
+      font-size: 20px;
+      margin-left: 10%;
+      margin-bottom: 50px;
+      color: white;
+    }
 }   
 
 * {

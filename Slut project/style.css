@@ -12,11 +12,16 @@ header{
     padding-top: 1%;
     padding-bottom: 1%;
     color: white;
+    text-shadow: 20px 10px 10px rgb(222, 222, 222) ;
 }
 
 h1{
     text-align: center;
     font-size: 50px;
+}
+
+span{
+  box-shadow: white ;
 }
 
 /* Nav */
@@ -60,6 +65,7 @@ div{
     margin: 1% 10% 1% 10%;
     padding: 1% 5% 1% 5%;
     background-color: #FFFFFF;
+    border-radius: 40px;
 }
 
 main{
@@ -73,6 +79,20 @@ img{
     margin-left: 30%;
     margin-top: 20px;
     height: 250px;
+}
+
+/* Video */
+
+iframe{
+  margin-left: 29%;
+  border-radius: 10%;
+}
+
+#credits{
+  font-size: 20px;
+  margin-left: 29%;
+  margin-bottom: 50px;
+  color: white;
 }
 
 /* Phone varient */
@@ -98,6 +118,18 @@ img{
         font-size: 20px;
         color: #FFFFFF;
         margin-right: 1%;
+    }
+
+    iframe{
+      margin-left: 10%;
+      width: 80%;
+    }
+    
+    #credits{
+      font-size: 20px;
+      margin-left: 10%;
+      margin-bottom: 50px;
+      color: white;
     }
     
 }
@@ -172,6 +204,6 @@ img{
     }
   
     .menu.active {
-      max-height: 500px; /* justera efter behov */
+      max-height: 600px; /* justera efter behov */
     }
   }
