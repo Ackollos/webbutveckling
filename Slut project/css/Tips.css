@@ -28,12 +28,12 @@ nav{
     padding: 10px 10px 10px 10px;
 }
 
-nav a,p{
+nav a{
     display: inline-block;
     color: #FFFFFF;
     text-decoration: none;
     font-size: 20px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 nav p{
@@ -102,8 +102,13 @@ iframe{
         font-size: 15px;
         color: #FFFFFF;
         margin-right: 1%; 
-    }  
-    
+    }
+
+    img{
+      width: 70%;
+      margin: 10px 0px 0 15%;
+    }
+
     iframe{
       margin-left: 10%;
       width: 80%;
