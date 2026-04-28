@@ -33,11 +33,7 @@ nav a{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 20px;
-    margin-right: 20px;
-}
-
-nav p{
-    color: #000000;
+    margin-right: 10px;
 }
 
 nav a:hover{
